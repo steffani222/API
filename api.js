@@ -9,5 +9,5 @@ fetch("https://66279b8eb625bf088c08fd8e.mockapi.io/api/usuarios")
         return json;
     })
     .catch(function(error) {
-        
+       console.log(error) 
     });
